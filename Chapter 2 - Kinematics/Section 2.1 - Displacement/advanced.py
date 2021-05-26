@@ -27,7 +27,7 @@ def Ch2_Section_2_1():
     print("\n\u0394x = x_f - x_0\n")
     print("\u0394x is the object's [change/difference] in position, i.e., displacement.")
     print("x_f is the object's [final/ending] position.")
-    print("x_0 is the object's [initial/starting]s position.")
+    print("x_0 is the object's [initial/starting] position.")
 
     print("\nThis is a one-dimensional displacement example and the axis of movement can simply be depicted as follows:")
     print("\n[negative direction] -x <------------------------ x_0 ------------------------> +x [positive direction]")
