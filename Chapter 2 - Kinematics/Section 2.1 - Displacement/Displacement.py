@@ -1,10 +1,18 @@
+
+# Copyright (c) 2021, srowanphys
+# All rights reserved.
+
+# This source code is licensed under the Apache 2.0 license found in the
+# LICENSE.md file in the root directory of this source tree.
+
+# The following code constructs an interactive program for calculating displacement
+# The program is written in the Python language
+# All lines starting with a '#' symbol are so-called 'comments' and are not part of the program, but rather just helpful notes for the reader
+# Most of the program consists of simple functions:
+# - 'print()' to output a given message and/or result
+# - 'input()' to prompt an input from the user (you!), e.g. entering a value for a variable
+
 def Ch2_Section_2_1():
-    # The following code constructs an interactive program for calculating displacement
-    # The program is written in the Python language
-    # All lines starting with a '#' symbol are so-called 'comments' and are not part of the program, but rather just helpful notes for the reader
-    # Most of the program consists of simple functions:
-    # - 'print()' to output a given message and/or result
-    # - 'input()' to prompt an input from the user (you!), e.g. entering a value for a variable
     print("Welcome back to Interative AP\u00AE Physics in Python by Dr. Scott Rowan!")
     print("\nChapter 2: Kinematics, Section 2.1: Displacement")
 
