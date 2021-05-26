@@ -8,11 +8,29 @@
 # The program is written in the Python language
 # All lines starting with a '#' symbol are so-called 'comments' and are not part of the program, but rather just helpful notes for the reader
 
-# You may change the values of the inital and/or final position variables to change the calculated displacement
+# Here we define (def) a function called calculate_displacement() which contains the displacement equation in a readable code format
+# After calculating the displacement, the function then prints the result in the python window
 
-initial_position = 2
-final_position = -10
+def calculate_displacement(initial_position, final_position):
+    displacement = final_position - initial_position
+    print("Displacement:", displacement, "m")
 
-displacement = final_position - initial_position
+# Here we define the values for inital and final positions
+# You may change the values to change the calculated displacement
 
-print("Displacement:", displacement, "m")
+initial_position = 1
+final_position = -5
+
+# Below we run the program and call the calculate_displacement() function
+# As a beginner, you may ignore the rest of the code, it is only to ensure the progam file stay open so you can see the result
+
+if __name__ == '__main__':
+    try:
+        calculate_displacement(initial_position, final_position)
+    except BaseException:
+        import sys
+        print(sys.exc_info()[0])
+        import traceback
+        print(traceback.format_exc())
+    finally:
+        input("\nPlease press [Enter] to exit.")

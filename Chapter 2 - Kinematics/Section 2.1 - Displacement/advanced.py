@@ -12,6 +12,12 @@
 # - 'print()' to output a given message and/or result
 # - 'input()' to prompt an input from the user (you!), e.g. entering a value for a variable
 
+# Here we define (def) a function called calculate_displacement()
+# - The calculation follows the equation in a readable format: displacement (dx) = final_position (x_f) - initial_position (x_0)
+def calculate_displacement(initial_position, final_position):
+    return final_position - initial_position
+
+# Here we define (def) a function called Ch2_Section_2_1() which comprises an interactive displacement program requiring user input
 def Ch2_Section_2_1():
     print("Welcome back to Interative AP\u00AE Physics in Python by Dr. Scott Rowan!")
     print("\nChapter 2: Kinematics, Section 2.1: Displacement")
@@ -48,9 +54,8 @@ def Ch2_Section_2_1():
 
     input("\nTry and calculate the result yourself! Press [Enter] when you are ready to continue...")
 
-    # The following line of code is where the displacement is actually calculated and stored in the 'displacement' variable
-    # - The calculation follows the equation in a readable format: displacement (dx) = final_position (x_f) - initial_position (x_0)
-    displacement = final_position - initial_position
+    # Here we call the calculate_displacement() function to calculate the displacement based on the acquired inputs
+    displacement = calculate_displacement(initial_position, final_position)
 
     # The following outputs a message and the calculated displacement. 
     # - If the calculated displacement is positive, a '+' symbol is included in the output to show directionality. 
