@@ -118,6 +118,11 @@ def Ch2_Section_2_4():
     else:
         print("\nError: You have somehow ended up with an impossible value!")
 
+    if average_acceleration != round(average_acceleration, 15):
+        print("\nInteresting! You have run into a limitation of floating-point numbers and the calculated value is not quite right!")
+        print("Due to this limitation, you may get only close to the exact number, e.g., 0.30000000000000004 instead of 0.3 etc")
+        print("Don't worry, you're not wrong, the computer is!")
+
     print("--------------------------------------------------------------")
 
     print("Acceleration advanced.py has successfully completed.")
