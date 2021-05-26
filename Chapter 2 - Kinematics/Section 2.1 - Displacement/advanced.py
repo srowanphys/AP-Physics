@@ -79,7 +79,7 @@ def Ch2_Section_2_1():
 
     print("--------------------------------------------------------------")
 
-    print("\nDisplacement.py has successfully completed.")
+    print("\nDisplacement advanced.py has successfully completed.")
 
 
 if __name__ == '__main__':

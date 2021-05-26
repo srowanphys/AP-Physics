@@ -3,3 +3,4 @@ Physics Topic:
 Code:
 
 Examples:
+really need to hit home the whole deceleration/directionality concept

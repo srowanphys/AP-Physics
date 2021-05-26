@@ -120,7 +120,7 @@ def Ch2_Section_2_4():
 
     print("--------------------------------------------------------------")
 
-    print("Acceleration.py has successfully completed.")
+    print("Acceleration advanced.py has successfully completed.")
 
 
 if __name__ == '__main__':
