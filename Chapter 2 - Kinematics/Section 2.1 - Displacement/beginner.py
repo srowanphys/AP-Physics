@@ -4,7 +4,7 @@
 # This source code is licensed under the Apache 2.0 license found in the
 # LICENSE.md file in the root directory of this source tree.
 
-# The following code constructs an interactive program for calculating displacement
+# The following code constructs an basic program for calculating displacement
 # The program is written in the Python language
 # All lines starting with a '#' symbol are so-called 'comments' and are not part of the program, but rather just helpful notes for the reader
 
@@ -15,7 +15,7 @@ def calculate_displacement(initial_position, final_position):
     displacement = final_position - initial_position
     print("Displacement:", displacement, "m")
 
-# Here we define the values for inital and final positions
+# Here we define the values for the initial and final positions
 # You may change the values to change the calculated displacement
 
 initial_position = 1
