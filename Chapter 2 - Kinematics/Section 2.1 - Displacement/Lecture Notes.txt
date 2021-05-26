@@ -1,0 +1,10 @@
+Physics Topic:
+- easy enough
+
+Code:
+- error handling
+
+Examples:
+- values with int
+- values with float
+- rounding error, e.g. 4.3 - 3 = 1.2999998 m
